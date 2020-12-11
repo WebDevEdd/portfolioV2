@@ -107,13 +107,13 @@ window.addEventListener('scroll', function(e){
     if (windowPosition > 200){
         upArrow.classList.add('arrowUp');
         upArrow.addEventListener('click', function(el){
-            smoothScroll('.hero-section', 2000);
+            smoothScroll('.work-section', 2000);
         })
     }
     else{
         upArrow.classList.remove('arrowUp');
         upArrow.addEventListener('click', function(){
-            smoothScroll('.who', 2000);
+            smoothScroll('.work-section', 2000);
         });
     }
 });
