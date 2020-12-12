@@ -260,7 +260,7 @@
 .whatDoIKnow{
     width: 100%;
     height: 100vh;
-    background-image: url('/images/knowSectionblur.png');
+    background-image: url('images/knowSectionblur.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -272,7 +272,7 @@
 }
 .know-container{
     margin: 10%;
-    background-image: url('/images/knowSection.jpg');
+    background-image: url('images/knowSection.jpg');
     background-position: center;
     background-size: cover;
     -webkit-box-shadow: 0px 0px 25px 6px #000000; 
